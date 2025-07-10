@@ -1,0 +1,47 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.2.0">
+  <diagram id="FMYRc1UR7djh7VFoDqlG" name="Blok diagram sistem">
+    <mxGraphModel dx="872" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1e5jS8H6wy45zNqhSiLt-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="1e5jS8H6wy45zNqhSiLt-1" target="1e5jS8H6wy45zNqhSiLt-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="120" />
+              <mxPoint x="350" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1e5jS8H6wy45zNqhSiLt-1" value="Sensor DHT11&lt;div&gt;(Suhu dan Kelembapan)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="170" y="90" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1e5jS8H6wy45zNqhSiLt-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="1e5jS8H6wy45zNqhSiLt-2" target="1e5jS8H6wy45zNqhSiLt-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="250" />
+              <mxPoint x="370" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1e5jS8H6wy45zNqhSiLt-2" value="Sensor LDR (Cahaya)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="170" y="220" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1e5jS8H6wy45zNqhSiLt-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="1e5jS8H6wy45zNqhSiLt-3" target="1e5jS8H6wy45zNqhSiLt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1e5jS8H6wy45zNqhSiLt-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="1e5jS8H6wy45zNqhSiLt-3" target="1e5jS8H6wy45zNqhSiLt-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1e5jS8H6wy45zNqhSiLt-3" value="ESP 32&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;- Baca Data dari Inputan Sensor&lt;/div&gt;&lt;div&gt;- Mengatur Modenya Menjadi Otomatis atau Manual&lt;/div&gt;&lt;div&gt;- Nilai Logika Untuk pengontrolan Jemuran&lt;/div&gt;&lt;div&gt;- Mengirim datanya ke BLYNK App&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="370" y="90" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="1e5jS8H6wy45zNqhSiLt-4" value="Aplikasi Blynk&amp;nbsp;&lt;div&gt;(Monitoring dan Kontrolnya&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="610" y="90" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1e5jS8H6wy45zNqhSiLt-5" value="Servo Motor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="400" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
